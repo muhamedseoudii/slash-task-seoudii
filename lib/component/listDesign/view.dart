@@ -151,7 +151,7 @@ class _CustomListState extends State<CustomList> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 125.w,
+      width: 132.w,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.stretch,

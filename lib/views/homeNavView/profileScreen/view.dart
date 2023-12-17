@@ -53,7 +53,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "Saved Items",
                         color: 0xffD50000,
                         icon: "heart",
-                        size: 175,
+                        size: 173,
                       ),
                       Divider(
                         color: Color(0xffE5E7EB),
@@ -64,7 +64,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "My Orders",
                         color: 0xffC6FF00,
                         icon: "order",
-                        size: 189,
+                        size: 188,
                       ),
                       Divider(
                         color: Color(0xffE5E7EB),
@@ -75,7 +75,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "Followed brands",
                         color: 0xffFF6F00,
                         icon: "brand",
-                        size: 146,
+                        size: 141,
                       ),
                       Divider(
                         color: Color(0xffE5E7EB),
@@ -86,7 +86,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "Shipping addresses",
                         color: 0xffE91E63,
                         icon: "location",
-                        size: 123,
+                        size: 119,
                       ),
                     ],
                   ),
@@ -111,7 +111,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "Terms and conditions",
                         color: 0xff2196F3,
                         icon: "terms",
-                        size: 107,
+                        size: 103,
                       ),
                       Divider(
                         color: Color(0xffE5E7EB),
@@ -122,7 +122,7 @@ class ProfilePageView extends StatelessWidget {
                         text: "Contact us",
                         color: 0xffC6FF00,
                         icon: "call",
-                        size: 186,
+                        size: 184,
                       ),
                     ],
                   ),
