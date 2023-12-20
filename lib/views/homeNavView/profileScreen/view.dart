@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:slash_new/component/listDesign/view.dart';
 
+import '../../../component/ButtonDesign/view.dart';
+
 class ProfilePageView extends StatelessWidget {
   const ProfilePageView({Key? key}) : super(key: key);
 
@@ -128,23 +130,23 @@ class ProfilePageView extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 20.h),
-                // CustomizeButton2(
-                //   OnClick: () {},
-                //   text: " Sign out",
-                //   color: Color(0xff424242),
-                //   size: 16,
-                //   color1: Color(0xff424242),
-                //   icon: "logout",
-                // ),
-                // SizedBox(height: 20.h),
-                // CustomizeButton2(
-                //   OnClick: () {},
-                //   text: " Delete Account",
-                //   color: Color(0xffD50000),
-                //   size: 16,
-                //   color1: Color(0xffD50000),
-                //   icon: "trash",
-                // )
+                CustomizeButton2(
+                  OnClick: () {},
+                  text: " Sign out",
+                  color: Color(0xff424242),
+                  size: 16,
+                  color1: Color(0xff424242),
+                  icon: "logout",
+                ),
+                SizedBox(height: 20.h),
+                CustomizeButton2(
+                  OnClick: () {},
+                  text: " Delete Account",
+                  color: Color(0xffD50000),
+                  size: 16,
+                  color1: Color(0xffD50000),
+                  icon: "trash",
+                )
               ],
             ),
           ),
